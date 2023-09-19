@@ -39,7 +39,7 @@
                     <img src="./images/jane-m.jpg" alt="usuario">
                 </div>
                 <div class="text">
-                    <h1>Jane Doe</h1>
+                    <h1 id="name">Jane Doe</h1>
                     <div class="titulo">
                         <img src="./icons/map-marker.png" alt="place">
                         <h5>Seattle</h5>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="edit">
                         <img src="./icons/gear.png" alt="">
-                        <a href="">edit profile</a>
+                        <a onclick="changeName()">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
         <div class="block4">
             <div class="con">
              <div class="baner">
-                <div class="dos"><h2>2</h2></div>
+                <div class="dos"><h2 id="req">2</h2></div>
                 <h2 id="conRqu">Connection Request</h2>
              </div>
              <div class="tod">
@@ -82,11 +82,11 @@
                 </div>
                 <div class="ticketCancel">
 
-                    <img src="./icons/accept-circle.png" alt="">
-                    <img src="./icons/close-circle.png" alt="">
+                    <img src="./icons/accept-circle.png" alt="" onclick="acceptar(0)">
+                    <img src="./icons/close-circle.png" alt=""  onclick="borrar(0)">
                 </div>
              </div>
-             <div class="tod">
+             <div class="phill">
                 <div class="todE">
                     
                     <img class="toddImg" src="./images/phil-s.jpg" alt="">
@@ -94,14 +94,14 @@
                 </div>
                 <div class="ticketCancel">
 
-                    <img src="./icons/accept-circle.png" alt="">
-                    <img src="./icons/close-circle.png" alt="">
+                    <img src="./icons/accept-circle.png" alt="" onclick="acceptar(1)">
+                    <img src="./icons/close-circle.png" alt="" onclick="borrar(1)">
                 </div>
              </div>
             </div>
             <div class="your">
                 <div class="baner">
-                    <div class="quin"><h2>500+</h2></div>
+                    <div class="quin"><h2 id="conYou">500</h2></div>
                     <h2 id="conRqu">Your Connection</h2>
                     
                  </div>
@@ -139,7 +139,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 
 </html>

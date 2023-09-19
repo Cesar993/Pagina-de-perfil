@@ -200,6 +200,7 @@ a {
     font-size: 20px;
     font-weight: bold;
     position: sticky;
+    text-decoration: underline;
 }
 
 /* tarjeta education */
@@ -268,19 +269,19 @@ a {
 #conRqu {
     margin-left: 10px;
 }
-.tod{
+.tod, .phill{
     display: flex;
     height: 40px;
     justify-content: space-around;
     margin-top: 20px;
     align-items: center;
 }
-.tod img{
+.tod img , .phill img{
     height: 40px;
     border: 2px solid #353535;
     border-radius: 50%;
 }
-.tod h2{
+.tod h2, .phill h2{
     font-size: 20px;
 }
 .todE{
